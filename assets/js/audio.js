@@ -1,0 +1,1 @@
+var yourAudio = document.getElementById('skull'),ctrl = document.getElementById('muteSkull');ctrl.onclick = function () {var pause = ctrl.innerHTML === 'pause!';ctrl.innerHTML = pause ? 'play!' : 'pause!';var method = pause ? 'pause' : 'play';yourAudio[method]();return false;};
