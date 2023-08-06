@@ -104,8 +104,14 @@ color: #4AF626;
     right: 5px;
     bottom: 5px;
     max-width: 10%;
-      height: auto;
-
+    height: auto;
+}
+#emailMe {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    max-width: 10%;
+    height: auto;
 }
 #iexp{
     position: absolute;
